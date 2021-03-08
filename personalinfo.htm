@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title> FORM </title>
+</head>
+<body>
+<field set>
+<legend>Personal information:</legend>
+    <form action="action.php" method="post" target="_blank" autocomplete="on" novalidate>
+  <label for="fname">First name:</label><br>
+ <input type="text" id="fname" name="fname"><br>
+<label for="mname">Middle name:</label><br>
+<input type="text" id="mname" name="mname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+<label for="email">Email</label><br>
+<input type="text" id="email" name="email"><br>
+<label for="phone number">phone number</label><br>
+<input type="tel" id="phone" name="phone" pattern="[+91]{1}[6-9]{1}[0-9]{9}">
+<legend>fathers name</legend>
+<label for="fname">first name:</label><br>
+ <input type="text" id="fname" name="fname"><br>
+<label for="mname">Middle name:</label><br>
+<input type="text" id="mname" name="mname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+
+  <label for="date">Date of birth :</label>
+  <input type="date" id="datemax" name="datemax" max="2003-01-01">
+<input type="date" id="datemin" name="datemin"  min="2001-01-01" ><br><br>
+  <br>
+</field set>
+<legend style="font-color:pitch-black";>gender:</legend>
+<input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+<br>
+<label for="family income">Family income (between Rs.0 and Rs.300000):</label>
+  <input type="range" id="income" name="income " min="0" max="300000" step="10000">
+
+
+<br>
+<P><a href="education.htm";>next</a></p>
+</body>
+</html>
