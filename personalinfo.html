@@ -4,7 +4,7 @@
 <title> FORM </title>
 </head>
 <body>
-<field set>
+<fieldset>
 <legend>Personal information:</legend>
     <form action="action.php" method="post" target="_blank" autocomplete="on" novalidate>
   <label for="fname">First name:</label><br>
@@ -29,7 +29,8 @@
   <input type="date" id="datemax" name="datemax" max="2003-01-01">
 <input type="date" id="datemin" name="datemin"  min="2001-01-01" ><br><br>
   <br>
-</field set>
+</fieldset>
+    <fieldset>
 <legend style="font-color:pitch-black";>gender:</legend>
 <input type="radio" id="male" name="gender" value="male">
   <label for="male">Male</label><br>
@@ -37,10 +38,12 @@
   <label for="female">Female</label><br>
   <input type="radio" id="other" name="gender" value="other">
   <label for="other">Other</label>
+        </fieldset>
 <br>
+    <fieldset>
 <label for="family income">Family income (between Rs.0 and Rs.300000):</label>
   <input type="range" id="income" name="income " min="0" max="300000" step="10000">
-
+</fieldset>
 
 <br>
 <P><a href="education.html";>next</a></p>
